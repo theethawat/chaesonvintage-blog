@@ -1,6 +1,9 @@
-# TDC-Space (TDC-Sped) Blog
+# Chaesonvintage Blog
 
-Social, History and Culture blog from me, to let me talk and let me share.
+Blog for Chaesonvintage at [blog.chaesonvintage.in.th](https://blog.chaesonvintage.in.th) Coming Soon
+
+Cloning from [TheDuckCreator/tdc-space-blog](https://github.com/TheDuckCreator/tdc-space-blog) Blogging using Gatsby JS Blog Tempalte and Writting With Markdown
+Check it out the Gatsby repo document below.
 
 ## Development
 
