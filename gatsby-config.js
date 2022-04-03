@@ -7,20 +7,17 @@ module.exports = {
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `TDCSpace`,
-    author: `Theethawat Savastham`,
-    description: ` ขอให้เป็ดได้พูด เราไม่ใช่คนที่รู้เยอะ หรือเก่งจริง
-    แต่ขอให้ได้แสดงความคิดเห็น เผื่อข้อมูลเล็กๆ น้อยๆ
-    ของเราจะมีประโยชน์กับส่วนรวมได้บ้าง.`,
+    title: `แจ้ซ้อนวินเทจ`,
+    author: `Chaesonvintage`,
+    siteUrl: "https://blog.chaesonvintage.in.th",
+    description:
+      "นิยามแห่งความสุขและธรรมชาติบริสุทธิ์ บนพื้นที่กว่า6ไร่ ใต้ร่มเงาไม้ใหญ่ ตั้งอยู่สองฟากฝั่งโค้งน้ำที่สวยที่สุดของลำน้ำมอญ ที่ไหลมาจากน้ำตกแจ้ซ้อน โอบล้อมด้วยทุ่งนาและขุนเขา บรรยากาศร่มรื่น เป็นส่วนตัว",
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/mrtintheethawat`,
-      },
-      {
-        name: `github`,
-        url: `https://github.com/theethawat`,
+        name: `facebook`,
+        url: `https://facebook.com/chaesonvintage`,
       },
     ],
+    image: `assets/chaeson-cover.jpg`,
   },
 }

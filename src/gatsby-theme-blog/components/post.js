@@ -13,7 +13,7 @@ const Post = ({
   data: {
     post,
     site: {
-      siteMetadata: { title },
+      siteMetadata: { title, description },
     },
   },
   location,
@@ -36,11 +36,10 @@ const Post = ({
         <header>
           <section className="hero tdc-hero is-bold mb-5">
             <div className="hero-body">
-              <div className="container">
-                <h1 className="subtitle mitr has-text-white is-2 mb-0">
+              <div className="container down-opa-backgroud">
+                <h1 className="subtitle mitr desktop-has-text-white is-2 mb-0  ">
                   {post.title}
                 </h1>
-                <h2 className="subtitle mt-1 has-text-white ">{post.date}</h2>
               </div>
             </div>
           </section>

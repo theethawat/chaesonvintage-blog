@@ -10,25 +10,17 @@ const Layout = ({ location, title, children }) => {
   header = (
     <div>
       <nav
-        className="navbar  is-dark "
+        className="navbar  is-white "
         role="navigation"
         aria-label="main navigation"
       >
         <div className="navbar-brand">
-          <Link className="navbar-item subtitle is-4 pb-0 mb-2" to="/">
+          <Link
+            className="navbar-item  subtitle is-4 pb-0 mb-2 mitr has-text-primary"
+            to="/"
+          >
             {title}
           </Link>
-          <a
-            role="button"
-            className="navbar-burger burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarBasicExample"
-          >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
         </div>
         <div id="navbarBasicExample" className="navbar-menu">
           <div className="navbar-start">
@@ -47,17 +39,13 @@ const Layout = ({ location, title, children }) => {
         <main>{children}</main>
       </section>
 
-      <footer className="footer has-background-dark mitr ">
-        <div className="content has-text-centered has-text-white ">
-          CC 4.0 BY {new Date().getFullYear()}, เพราะเราเชื่อว่าการพูดคุยกัน
-          จะส่งผลดี และเข้าใจกันมากขึ้นเสมอ <br />
-          The Duck Creator - Create for Better{" "}
-          <a className="has-text-light" href="https://theduckcreator.in.th">
-            www.theduckcreator.in.th
-          </a>{" "}
+      <footer className="footer has-background-light maitree ">
+        <div className="content has-text-centered has-text-dark ">
+          &copy; {new Date().getFullYear()} <strong>แจ้ซ้อนวินเทจ</strong> 159
+          ม.11 ต.แจ้ซ้อน อ.เมืองปาน จ.ลำปาง <br /> Powered by TheDuckCreator
           {` `}
           Built with {` `}
-          <a className="has-text-light" href="https://www.gatsbyjs.com">
+          <a className="has-text-dark" href="https://www.gatsbyjs.com">
             Gatsby
           </a>
         </div>
