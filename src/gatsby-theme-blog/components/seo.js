@@ -39,6 +39,13 @@ function SEO({ description, lang, meta, title, imageSource, imageAlt }) {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      link={[
+        {
+          rel: "icon",
+          type: "image/x-icon",
+          href: `${site.siteMetadata.siteUrl}/assets/logo.jpg`,
+        },
+      ]}
       meta={[
         {
           name: `description`,
