@@ -10,6 +10,8 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
+import logo from "../../../content/assets/logo.jpg"
+
 function SEO({ description, lang, meta, title, imageSource, imageAlt }) {
   const { site } = useStaticQuery(
     graphql`
@@ -43,7 +45,7 @@ function SEO({ description, lang, meta, title, imageSource, imageAlt }) {
         {
           rel: "icon",
           type: "image/x-icon",
-          href: `${site.siteMetadata.siteUrl}/assets/logo.jpg`,
+          href: logo,
         },
       ]}
       meta={[
