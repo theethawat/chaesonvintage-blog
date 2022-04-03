@@ -42,12 +42,7 @@ const Layout = ({ location, title, children }) => {
       <footer className="footer has-background-light maitree ">
         <div className="content has-text-centered has-text-dark ">
           &copy; {new Date().getFullYear()} <strong>แจ้ซ้อนวินเทจ</strong> 159
-          ม.11 ต.แจ้ซ้อน อ.เมืองปาน จ.ลำปาง <br /> Powered by TheDuckCreator
-          {` `}
-          Built with {` `}
-          <a className="has-text-dark" href="https://www.gatsbyjs.com">
-            Gatsby
-          </a>
+          ม.11 ต.แจ้ซ้อน อ.เมืองปาน จ.ลำปาง <br />
         </div>
       </footer>
     </div>
